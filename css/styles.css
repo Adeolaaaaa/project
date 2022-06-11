@@ -618,13 +618,14 @@ input[type="checkbox"] {
 /*     Details     */
 /*******************/
 .split .area-1 {
+  display: none;
   height: 430px;
   background: linear-gradient(
       to bottom right,
       rgba(25, 26, 29, 0.5),
       rgba(25, 26, 29, 0.5)
     ),
-    url("../images/details-background.jpg") center center no-repeat;
+    url("../images/servicesbg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -1007,6 +1008,9 @@ a:hover.back-to-top {
     padding: 1.75rem 2rem 0.875rem 2rem;
   }
   /* end of extra pages */
+    .split .area-1 {
+    display: block;
+  }
 }
 /* end of min-width 768px */
 
